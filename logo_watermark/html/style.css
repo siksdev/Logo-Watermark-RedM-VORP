@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    overflow: hidden;
+}
+
+#logo-container {
+    position: absolute;
+    top: 20px;          /* distância do topo */
+    left: 50%;          /* centraliza horizontalmente */
+    transform: translateX(-50%);
+    display: none;      /* inicialmente escondido */
+}
+
+#logo-container img {
+    width: 150px;       /* ajuste conforme necessário */
+    height: auto;
+}
